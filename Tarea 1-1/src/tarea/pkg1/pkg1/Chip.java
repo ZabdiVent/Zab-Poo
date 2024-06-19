@@ -15,6 +15,15 @@ public class Chip {
     
     Chip(Operador operador, int numero){
         this.numero = numero;
+        this.operador = operador;
+    }
+    
+    String getNombreOp(){
+        return this.operador.nombre;
+    }
+    
+    String getPais(){
+        return this.operador.pais;
     }
     
 }

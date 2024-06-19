@@ -9,15 +9,18 @@ public class Tarea11 {
         Fabricante f1 = new Fabricante("Samsung Group", "Corea del Sur"); 
         
         Operador o1 = new Operador("Claro", "Honduras");
+        Operador o2 = new Operador("Tigo", "Guatemala");
         
         Chip chip1 = new Chip(o1, 4545454);
-        Chip chip2 = new Chip(o1, 4565898);
+        Chip chip2 = new Chip(o2, 4565898);
         
         Smartphone samsung = new Smartphone("Samsung","S10",64,6,4000, chip1, chip2);
         
         System.out.println(f1.nombre);
         System.out.println(f1.pais);
         samsung.MostrarInfo();
+        
+        
         
     }
     

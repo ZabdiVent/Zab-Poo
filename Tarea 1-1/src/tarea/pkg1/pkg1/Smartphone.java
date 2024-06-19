@@ -63,12 +63,13 @@ public class Smartphone {
     int getBateria(){
         return this.bateria;
     }       
-    
+      
     void MostrarInfo(){
         System.out.println("Marca: " + this.marca + ", Modelo: "+ this.modelo + ", Almacenamiento: "+ this.rom + "GB"+ 
                 ", Bateria: "+this.bateria + "mah");
         
-        System.out.println();
+        System.out.println("Chip 1: " + " El Operador "+chip1.getNombreOp()+ ", el Pais "+chip1.getPais()+"; El Numero: "+chip1.numero);
+        System.out.println("Chip 2: " + " El Operador "+chip2.getNombreOp()+ ", el Pais "+chip2.getPais()+"; El Numero: "+chip2.numero);
     }
     
 }
