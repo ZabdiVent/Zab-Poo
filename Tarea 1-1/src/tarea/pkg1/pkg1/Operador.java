@@ -17,4 +17,5 @@ public class Operador {
         this.nombre = nombre;
         this.pais = pais;
     }
+    
 }

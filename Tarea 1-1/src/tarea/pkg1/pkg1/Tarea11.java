@@ -6,12 +6,18 @@ public class Tarea11 {
         
         System.out.println("Zabdi Ventura"); 
         
-        Fabricante F1 = new Fabricante("Samsung Group", "Corea del Sur"); 
+        Fabricante f1 = new Fabricante("Samsung Group", "Corea del Sur"); 
         
-        Chip C1 = new Chip("Tigo", 56235623);
-        Chip C2 = new Chip("Claro", 45454554);
+        Operador o1 = new Operador("Claro", "Honduras");
         
+        Chip chip1 = new Chip(o1, 4545454);
+        Chip chip2 = new Chip(o1, 4565898);
         
+        Smartphone samsung = new Smartphone("Samsung","S10",64,6,4000, chip1, chip2);
+        
+        System.out.println(f1.nombre);
+        System.out.println(f1.pais);
+        samsung.MostrarInfo();
         
     }
     

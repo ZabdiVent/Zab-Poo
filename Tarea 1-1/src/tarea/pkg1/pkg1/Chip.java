@@ -10,10 +10,10 @@ package tarea.pkg1.pkg1;
  * @author zabdi
  */
 public class Chip {
-    private String operador;
+    private Operador operador;
     public int numero;
     
-    Chip(int numero){
+    Chip(Operador operador, int numero){
         this.numero = numero;
     }
     

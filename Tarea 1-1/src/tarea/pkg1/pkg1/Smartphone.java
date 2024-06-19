@@ -13,22 +13,62 @@ public class Smartphone {
     
     private String marca;
     private String modelo;
-    private int almacenamiento;
+    private int rom;
     private int ram;
     private int bateria;
-    private String chip1;
-    private String chip2;
+    private Chip chip1;
+    private Chip chip2;
     
-    Smartphone(String marca, String modelo, int rom, int ram, int bateria, String chip1, String chip2){
+    Smartphone(String marca, String modelo, int rom, int ram, int bateria, Chip chip1, Chip chip2){
         this.marca = marca;
         this.modelo = modelo;
-        almacenamiento = rom;
+        this.rom = rom;
         this.ram = ram;
         this.bateria = bateria;
         this.chip1 = chip1;
-        this.chip2 = chip2;  
+        this.chip2 = chip2;
     }
     
-     
+    void setMarca(String marca){
+        this.marca = marca;
+    }
+    String getMarca(){
+        return this.marca;
+    }
+    
+    void setModelo(String modelo){
+        this.modelo = modelo;
+    }
+    String getModelo(){
+        return this.modelo;
+    }
+    
+    void setRom(int rom){
+        this.rom = rom;
+    }
+    int getRom(){
+        return this.rom;
+    }
+    
+    void setRam(int ram){
+        this.ram = ram;
+    }
+    int getRam(){
+        return this.ram;
+    }
+    
+    void setBateria(int bateria){
+        this.bateria = bateria;
+    }
+    int getBateria(){
+        return this.bateria;
+    }       
+    
+    void MostrarInfo(){
+        System.out.println("Marca: " + this.marca + ", Modelo: "+ this.modelo + ", Almacenamiento: "+ this.rom + "GB"+ 
+                ", Bateria: "+this.bateria + "mah");
+        
+        System.out.println();
+    }
     
 }
