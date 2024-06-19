@@ -68,8 +68,8 @@ public class Smartphone {
         System.out.println("Marca: " + this.marca + ", Modelo: "+ this.modelo + ", Almacenamiento: "+ this.rom + "GB"+ 
                 ", Bateria: "+this.bateria + "mah");
         
-        System.out.println("Chip 1: " + " El Operador "+chip1.getNombreOp()+ ", el Pais "+chip1.getPais()+"; El Numero: "+chip1.numero);
-        System.out.println("Chip 2: " + " El Operador "+chip2.getNombreOp()+ ", el Pais "+chip2.getPais()+"; El Numero: "+chip2.numero);
+        System.out.println("Chip 1: " + " El Operador "+chip1.getNombreOP()+ ", el Pais "+chip1.getPaisOP()+"; El Numero: "+chip1.numero);
+        System.out.println("Chip 2: " + " El Operador "+chip2.getNombreOP()+ ", el Pais "+chip2.getPaisOP()+"; El Numero: "+chip2.numero);
     }
     
 }

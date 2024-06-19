@@ -18,11 +18,11 @@ public class Chip {
         this.operador = operador;
     }
     
-    String getNombreOp(){
+    String getNombreOP(){
         return this.operador.nombre;
     }
     
-    String getPais(){
+    String getPaisOP(){
         return this.operador.pais;
     }
     
