@@ -29,5 +29,6 @@ public class Smartphone {
         this.chip2 = chip2;  
     }
     
+     
     
 }

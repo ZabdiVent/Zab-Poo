@@ -6,6 +6,11 @@ public class Tarea11 {
         
         System.out.println("Zabdi Ventura"); 
         
+        Fabricante F1 = new Fabricante("Samsung Group", "Corea del Sur"); 
+        
+        Chip C1 = new Chip("Tigo", 56235623);
+        Chip C2 = new Chip("Claro", 45454554);
+        
         
         
     }
