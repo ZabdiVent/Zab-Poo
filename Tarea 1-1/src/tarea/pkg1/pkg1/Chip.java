@@ -10,7 +10,7 @@ package tarea.pkg1.pkg1;
  * @author zabdi
  */
 public class Chip {
-    private Operador operador;
+    private final Operador operador;
     public int numero;
     
     Chip(Operador operador, int numero){

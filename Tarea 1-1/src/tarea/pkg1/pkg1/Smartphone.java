@@ -16,8 +16,8 @@ public class Smartphone {
     private int rom;
     private int ram;
     private int bateria;
-    private Chip chip1;
-    private Chip chip2;
+    private final Chip chip1;
+    private final Chip chip2;
     
     Smartphone(String marca, String modelo, int rom, int ram, int bateria, Chip chip1, Chip chip2){
         this.marca = marca;
