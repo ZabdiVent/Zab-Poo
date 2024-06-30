@@ -13,4 +13,8 @@ public class Turismo extends Vehiculo {
         System.out.println(precioR*dias);
     }
     
+    void calcularCostosAseguranza(){
+        System.out.println((año*0.01)*precioR);
+    }
+    
 }

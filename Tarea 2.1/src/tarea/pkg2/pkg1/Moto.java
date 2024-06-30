@@ -14,4 +14,9 @@ public class Moto extends Vehiculo{
         re = (precioR*dias)*0.20;
         System.out.println((precioR*dias)-re);
     }
+    
+    void calcularCostosAseguranza(){
+        System.out.println((año*0.005)*precioR);
+    }
+    
 }

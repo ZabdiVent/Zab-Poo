@@ -14,4 +14,9 @@ public class Camion extends Vehiculo {
         re = (precioR*dias)*0.20;
         System.out.println(re+(precioR*dias));
     }
+    
+    void calcularCostosAseguranza(){
+        System.out.println((año*0.015)*precioR);
+    }
+    
 }
