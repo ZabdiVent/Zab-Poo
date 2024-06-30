@@ -12,11 +12,17 @@ public class Moto extends Vehiculo{
     public void calcularCostoRenta(int dias){
         double re;
         re = (precioR*dias)*0.20;
-        System.out.println("El costo de renta es: " +((precioR*dias)-re));
+        System.out.println("El costo de renta es: " +((precioR*dias)-re)+" Lps");
     }
     
     void calcularCostosAseguranza(){
-        System.out.println("El Costo de aseguranza es: "+(año*0.005)*precioR);
+        System.out.println("El Costo de aseguranza es: "+((año*0.005)*precioR)+" Lps");
+    }
+    
+    @Override
+    public void mostrarInfo(){
+        super.mostrarInfo();
+        System.out.println("El motor es de: "+capacidadMotor+" cc");
     }
     
 }

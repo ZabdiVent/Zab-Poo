@@ -17,4 +17,7 @@ abstract class Vehiculo {
         
     }
     
+    public void mostrarInfo(){
+        System.out.println("La marca: "+marca+", el modelo: "+modelo+", el año: "+año+", el precio de renta: "+precioR);
+    }
 }
