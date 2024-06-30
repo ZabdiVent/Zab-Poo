@@ -10,11 +10,11 @@ public class Turismo extends Vehiculo {
     
     @Override
     public void calcularCostoRenta(int dias){
-        System.out.println(precioR*dias);
+        System.out.println("El costo de renta es: " +precioR*dias);
     }
     
     void calcularCostosAseguranza(){
-        System.out.println((año*0.01)*precioR);
+        System.out.println("El Costo de aseguranza es: "+(año*0.01)*precioR);
     }
     
 }
