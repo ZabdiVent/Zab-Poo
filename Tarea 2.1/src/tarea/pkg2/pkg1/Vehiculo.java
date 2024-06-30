@@ -13,7 +13,7 @@ abstract class Vehiculo {
         this.precioR = precioR;  
     }
     
-    void calcularCostoRenta(int dias){
+    public void calcularCostoRenta(int dias){
         
     }
 }
