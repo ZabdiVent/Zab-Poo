@@ -10,7 +10,7 @@ public class Turismo extends Vehiculo {
     
     @Override
     public void calcularCostoRenta(int dias){
-        
+        System.out.println(precioR*dias);
     }
     
 }

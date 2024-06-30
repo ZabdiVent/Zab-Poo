@@ -10,6 +10,8 @@ public class Camion extends Vehiculo {
     
     @Override
     public void calcularCostoRenta(int dias){
-        
+        double re;
+        re = (precioR*dias)*0.20;
+        System.out.println(re+(precioR*dias));
     }
 }
